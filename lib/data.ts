@@ -2,85 +2,79 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import cursostesi from "@/public/cursostesi.png";
+import sabomotors from "@/public/sabomotors_image.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "Inicio",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Conóceme",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Trabajo",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiencia",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contáctame",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Ingeniería Informática",
+    location: "Coatepec, Estado de México",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Terminé el último año de Ingeniería en Informática en el Tecnológico de Estudios Superiores de Ixtapaluca.  ",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Sitio web de cursos TESI",
+    location: "Ixtapaluca, Estado de México",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Construí un sitio web de E-learning que me permitió desarrollar habilidades Frontend y Backend. El proyecto duró 1 año.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Desarrollador Full-Stack",
+    location: "Tlacpacoya, Estado de México",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Actualmente estoy desarrollando la página institucional de la agencia de autos Seminuevos Sabo Motors. El proyecto lleva 1 mes.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Cursos TESI",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Trabajé con el Tecnológico de Estudios Superiores de Ixtapaluca para construir un sitio web de cursos: www.cursostesi.tech. Fue un proyecto de 1 año.",
+    tags: ["React", "Next.js", "Prisma", "Tailwind", "Git"],
+    imageUrl: cursostesi,
   },
   {
-    title: "rmtDev",
+    title: "Sabo Motors",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Estoy desarrollando un sitio web para la agencia de autos Seminuevos Sabo Motors. Es un proyecto de 1 mes, aún sigue en curso. \b yellow-glacier-049b0c110.4.azurestaticapps.net",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
+    imageUrl: sabomotors,
   },
 ] as const;
 
@@ -96,12 +90,9 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "SQL",
   "Framer Motion",
 ] as const;
