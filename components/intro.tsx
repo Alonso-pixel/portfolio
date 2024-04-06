@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/foto.png"
+              src="https://i.imgur.com/3i4nwNG.png"
               alt="Alonso portrait"
               width="192"
               height="192"
@@ -89,12 +89,11 @@ export default function Intro() {
           }}
         >
           Contáctame{" "}
-          {/* <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" /> */}
         </Link>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Currículum.pdf"
+          href="https://docs.google.com/document/d/13oPk6rkKvvCmPLil2xIgFtnrBbtzQKmpGBDwYaXIoJI/edit?usp=sharing"
           download
         >
           Descargar CV{" "}
