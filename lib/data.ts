@@ -4,8 +4,6 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cursostesi from "@/public/cursostesi.png";
 import sabomotors from "@/public/sabomotors_image.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -68,6 +66,7 @@ export const projectsData = [
       "Trabajé con el Tecnológico de Estudios Superiores de Ixtapaluca para construir un sitio web de cursos: www.cursostesi.tech. Fue un proyecto de 1 año.",
     tags: ["React", "Next.js", "Prisma", "Tailwind", "Git"],
     imageUrl: cursostesi,
+    projectURL: "https://cursostesi.tech",
   },
   {
     title: "Sabo Motors",
@@ -75,6 +74,7 @@ export const projectsData = [
       "Estoy desarrollando un sitio web para la agencia de autos Seminuevos Sabo Motors. Es un proyecto de 1 mes, aún sigue en curso. \b yellow-glacier-049b0c110.4.azurestaticapps.net",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
     imageUrl: sabomotors,
+    projectURL: "https://yellow-glacier-049b0c110.4.azurestaticapps.net",
   },
 ] as const;
 
