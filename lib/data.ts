@@ -55,7 +55,7 @@ export const experiencesData = [
     description:
       "Actualmente estoy desarrollando la página institucional de la agencia de autos Seminuevos Sabo Motors. El proyecto lleva 1 mes.",
     icon: React.createElement(FaReact),
-    date: "2024 - present",
+    date: "2024 - presente",
   },
 ] as const;
 
@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "Sabo Motors",
     description:
-      "Estoy desarrollando un sitio web para la agencia de autos Seminuevos Sabo Motors. Es un proyecto de 1 mes, aún sigue en curso. \b yellow-glacier-049b0c110.4.azurestaticapps.net",
+      "Estoy desarrollando un sitio web para la agencia de autos Seminuevos Sabo Motors. Es un proyecto de 1 mes, aún sigue en curso.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
     imageUrl: sabomotors,
     projectURL: "https://yellow-glacier-049b0c110.4.azurestaticapps.net",
