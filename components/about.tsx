@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 import Link from "next/link";
 
 export default function About() {
-  const { ref } = useSectionInView("Conóceme", 0.5);
+  const { ref } = useSectionInView("About Me", 0.5);
 
   return (
     <motion.section
@@ -18,35 +18,35 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>Mi Historia</SectionHeading>
+      <SectionHeading>My Journey</SectionHeading>
       <p className="mb-3">
-        Después estudiar{" "}
-        <span className="font-bold">Ingeniería en Informática</span> construí un
-        sitio{" "}
+        After studying{" "}
+        <span className="font-bold">Computer Science Engineering</span>, I built
+        a{" "}
         <Link href="https://cursostesi.tech">
-          <span className="font-bold">web de cursos</span> para el{" "}
+          <span className="font-bold">course website</span> for the{" "}
           <span className="font-bold text-green-600">
-            TECNOLÓGICO DE ESTUDIOS SUPERIORES DE IXTAPALUCA
+            TECHNOLOGICAL INSTITUTE OF HIGHER STUDIES OF IXTAPALUCA
           </span>
           .
         </Link>
         <Link href="https://yellow-glacier-049b0c110.4.azurestaticapps.net/">
           {" "}
-          Actualmente estoy construyendo un
-          <span className="font-bold"></span> sitio web para la empresa{" "}
+          Currently, I am building a{" "}
+          <span className="font-bold">website for the company </span>
           <span className="font-bold text-red-700">Seminuevos Sabo Motors</span>
           .
         </Link>{" "}
-        Mi parte favorita del desarrollo web
-        <span className="italic"> es la programación:</span> me{" "}
-        <span className="underline">gusta resolver problemas</span> a través de
-        su correcta implementacion. Las tecnologías que más uso son{" "}
+        My favorite part of web development{" "}
+        <span className="italic">is programming:</span> I{" "}
+        <span className="underline">enjoy solving problems</span> through proper
+        implementation. The technologies I use the most are{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, y PostgreSQL
+          React, Next.js, Node.js, and PostgreSQL
         </span>
-        . Utilizo también TypeScript y Prisma. Me gusta aprender tecnologías
-        nuevas. Estoy abierto a ofertas como{" "}
-        <span className="font-medium">desarrollador de software.</span>
+        . I also use TypeScript and Prisma. I like learning new technologies. I
+        am open to offers as a{" "}
+        <span className="font-medium">software developer.</span>
       </p>
     </motion.section>
   );

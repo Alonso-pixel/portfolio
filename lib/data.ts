@@ -7,63 +7,63 @@ import sabomotors from "@/public/sabomotors_image.png";
 
 export const links = [
   {
-    name: "Inicio",
+    name: "Home",
     hash: "#home",
   },
   {
-    name: "Conóceme",
+    name: "About Me",
     hash: "#about",
   },
   {
-    name: "Trabajo",
+    name: "Work",
     hash: "#projects",
   },
   {
-    name: "Habilidades",
+    name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experiencia",
+    name: "Experience",
     hash: "#experience",
   },
   {
-    name: "Contáctame",
+    name: "Contact Me",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Ingeniería Informática",
-    location: "Coatepec, Estado de México",
+    title: "Computer Science Engineering",
+    location: "Coatepec, State of Mexico",
     description:
-      "Terminé el último año de Ingeniería en Informática en el Tecnológico de Estudios Superiores de Ixtapaluca.  ",
+      "I completed the final year of Computer Science Engineering at the Technological Institute of Higher Studies of Ixtapaluca.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
-    title: "Sitio web de cursos TESI",
-    location: "Ixtapaluca, Estado de México",
+    title: "TESI Courses Website",
+    location: "Ixtapaluca, State of Mexico",
     description:
-      "Construí un sitio web de E-learning que me permitió desarrollar habilidades Frontend y Backend. El proyecto duró 1 año.",
+      "I built an E-learning website that allowed me to develop Frontend and Backend skills. The project lasted 1 year.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2024",
   },
   {
-    title: "Desarrollador Full-Stack",
-    location: "Tlacpacoya, Estado de México",
+    title: "Full-Stack Developer",
+    location: "Tlacpacoya, State of Mexico",
     description:
-      "Actualmente estoy desarrollando la página institucional de la agencia de autos Seminuevos Sabo Motors. El proyecto lleva 1 mes.",
+      "I am currently developing the institutional website for the used car agency Seminuevos Sabo Motors. The project has been ongoing for 1 month.",
     icon: React.createElement(FaReact),
-    date: "2024 - presente",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Cursos TESI",
+    title: "TESI Courses",
     description:
-      "Trabajé con el Tecnológico de Estudios Superiores de Ixtapaluca para construir un sitio web de cursos: www.cursostesi.tech. Fue un proyecto de 1 año.",
+      "I worked with the Technological Institute of Higher Studies of Ixtapaluca to build a course website: www.cursostesi.tech. It was a 1-year project.",
     tags: ["React", "Next.js", "Prisma", "Tailwind", "Git"],
     imageUrl: cursostesi,
     projectURL: "https://cursostesi.tech",
@@ -71,10 +71,10 @@ export const projectsData = [
   {
     title: "Sabo Motors",
     description:
-      "Estoy desarrollando un sitio web para la agencia de autos Seminuevos Sabo Motors. Es un proyecto de 1 mes, aún sigue en curso.",
+      "I am developing a website for the used car agency Seminuevos Sabo Motors: www.seminuevossabomotors.com. It is a 5-month project, still ongoing.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
     imageUrl: sabomotors,
-    projectURL: "https://yellow-glacier-049b0c110.4.azurestaticapps.net",
+    projectURL: "https://www.seminuevossabomotors.com",
   },
 ] as const;
 

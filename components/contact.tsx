@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contáctame", 0.5);
+  const { ref } = useSectionInView("Contact Me", 0.5);
 
   return (
     <motion.section
@@ -26,9 +26,9 @@ export default function Contact() {
       }}
     >
       {/* <SectionHeading >Contácto:</SectionHeading> */}
-      <h1 className="-mt-36 text-3xl font-bold">Contácto:</h1>
+      <h1 className="-mt-36 text-3xl font-bold">Contact me:</h1>
       <p className="text-gray-700 mt-2 text-lg dark:text-white/80">
-        Por favor contáctame directamente con:{" "}
+        Please contact me directly with:{" "}
       </p>
       <div className="flex flex-col text-center">
         <p>
@@ -42,13 +42,13 @@ export default function Contact() {
           </a>
         </p>
         <p>
-          Número:{" "}
+          Number:{" "}
           <a className="underline" href="tel:+5215543200505">
             (+52 1) 56 1165 6986
           </a>{" "}
         </p>
         <p>
-          Correo:{" "}
+          Email:{" "}
           <a className="underline" href="mailto:kreitos_05@outlook.com">
             kreitos_05@outlook.com
           </a>{" "}
