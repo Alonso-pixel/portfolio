@@ -99,7 +99,7 @@ export default function Intro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <div className="sm:hidden flex gap-4">
+        <div className="flex gap-4 sm:flex">
           <a
             className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://www.linkedin.com/in/alonso-alarc%C3%B3n-aguilar-b57608296/"
