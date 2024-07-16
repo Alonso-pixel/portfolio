@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cursostesi from "@/public/cursostesi.png";
 import sabomotors from "@/public/sabomotors_image.png";
+import bulgaros from "@/public/blugaros.png";
 
 export const links = [
   {
@@ -53,9 +54,17 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Tlacpacoya, State of Mexico",
     description:
-      "I am currently developing the institutional website for the used car agency Seminuevos Sabo Motors. The project has been ongoing for 1 month.",
+      "I am currently developing the institutional website for the used car agency Seminuevos Sabo Motors. The project has been ongoing for 5 months.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
+  },
+  {
+    title: "Freelance Developer",
+    location: "Ixtapaluca, State of Mexico",
+    description:
+      "I developed a website for a Fermented Food company that receives ~200 users on its website every day.",
+    icon: React.createElement(FaReact),
+    date: "2024 February",
   },
 ] as const;
 
@@ -75,6 +84,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
     imageUrl: sabomotors,
     projectURL: "https://www.seminuevossabomotors.com",
+  },
+  {
+    title: "Bulgaros ayuda",
+    description:
+      "I have developed a website with some cool AI features for a fermented food company.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
+    imageUrl: bulgaros,
+    projectURL: "https://www.bulgarosayuda.com",
   },
 ] as const;
 
