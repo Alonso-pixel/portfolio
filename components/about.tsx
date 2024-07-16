@@ -35,7 +35,7 @@ export default function About() {
           Currently, I am building a{" "}
           <span className="font-bold">website for the company </span>
           <span className="font-bold text-red-700">Seminuevos Sabo Motors</span>
-          .
+          and also working in some projects as a Freelancer.
         </Link>{" "}
         My favorite part of web development{" "}
         <span className="italic">is programming:</span> I{" "}

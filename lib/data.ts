@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cursostesi from "@/public/cursostesi.png";
 import sabomotors from "@/public/sabomotors_image.png";
-import bulgaros from "@/public/blugaros.png";
+import bulgaros from "@/public/bulgaros.png";
 
 export const links = [
   {
@@ -88,7 +88,7 @@ export const projectsData = [
   {
     title: "Bulgaros ayuda",
     description:
-      "I have developed a website with some cool AI features for a fermented food company.",
+      "I have developed a website with some cool AI features for a fermented food company, optimized for client mobiles.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Git"],
     imageUrl: bulgaros,
     projectURL: "https://www.bulgarosayuda.com",
